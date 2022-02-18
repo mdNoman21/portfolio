@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+
+}
+.navbar{
+  padding: 10px 100px !important;
+}
+.landing{
+  width: 100vw;
+  height:92vh;
+  display: flex;
+  background-color: #2d3436;
+}
+.landingRight h1{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  overflow: hidden;
+}
+.landingRight p{
+  font-size: 1.3rem;
+  color: #fff;
+}
+.landing .landingLeft{
+  width: 50%;
+  display:grid;
+  place-items: center;
+}
+.landing .landingRight{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.landingImage{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius:50%
+}
+/* ---------------SKILLS SECTION-------------- */
+.skillContainer{
+  width: 100vw;
+  min-height:500px;
+  background-color: #2d3436;
+  color: #fff;
+}
+.allSkillsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}.skill{
+  background-color: rgba(18, 3, 26, 0.233);
+  width: 140px;
+  height: 85px;
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+.skill h3{
+  overflow: hidden;
+  font-size: 1.4rem;
+}
+.skillInner h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  overflow: hidden;
+}
+/* ------------CONTACTS-------------- */
+.contact {
+  background-color: #2d3436;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+.contact h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  overflow: hidden;
+}
+.form-group{
+  width: 500px;
+}
